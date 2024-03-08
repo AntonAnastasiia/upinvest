@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="uk">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Upinvest Information</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="js/script.js"></script>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-xxl  mt-4">
+    <div class="d-lg-flex">
+
+        <!-- БОКОВЕ МЕНЮ ДЛЯ МОБИЛЬНОГО ТЕЛЕФОНА -->
+        <div class="menu-sidebar-mobile mobile-block offcanvas offcanvas-start bg-color-blue pt-5 pb-5 pe-5 overflow-auto" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="d-flex flex-column flex-shrink-0  text-white">
+               <div class="d-flex pb-5 ps-5">
+                <div class="flex-grow-1 text-start">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="flex-grow-1 text-start"><img src="images/logo.png"  class="d-inline-block align-top" alt=""></div></div>
+              <div class="d-flex justify-content-center ">
+                <div class="block-user-info">
+                    <img src="images/photo_user.png" alt="">
+                    <div class="user-info">
+                      <span class="d-block">Сергій</span>
+                      <span class="d-block">Петренко</span>
+                    </div>
+                </div>
+                <div class="edit flex-grow-1">
+                  <a href = "#"><img src="images/Edit.svg" alt=""></a>
+                </div>
+                <div class="exit">
+                  <a href = "#"><img src="images/opendoor_white.svg" alt=""></a>
+                </div>
+              </div>
+            
+                <ul class="nav nav-pills flex-column mb-auto pt-5">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link ps-5 active" aria-current="page">
+                      <img src="images/info.svg"  class="d-inline-block align-top" alt="">
+                      Загальна інформація
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                     <img src="images/oplataonline.svg"  class="d-inline-block align-top" alt="">
+                      Оплата онлайн
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                    <img src="images/document.svg"  class="d-inline-block align-top" alt="">
+                      Документи
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                     <img src="images/Wallet.svg"  class="d-inline-block align-top" alt="">
+                      Платежі
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                    <img src="images/terms.svg"  class="d-inline-block align-top" alt="">
+                      Заяви
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                    <img src="images/user.svg"  class="d-inline-block align-top" alt="">
+                      Мої дані
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link ps-5">
+                    <img src="images/question.svg"  class="d-inline-block align-top" alt="">
+                      Поширені питання
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Кінець Бокового меню для мобильного -->
+
+
+      <!-- БОКОВЕ МЕНЮ ДЛЯ КОМП'ЮТЕРА' -->
+        <div class="menu-sidebar dekstop-block bg-color-blue rounded-3">
+            <div class="d-flex flex-column flex-shrink-0 ps-5 pt-5 pb-5 text-white">
+              <div class="pb-5 pt-4">
+              <img src="images/logo.png"  class="d-inline-block align-top" alt="">
+              </div>
+                <ul class="nav nav-pills flex-column mb-auto pt-5">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                      <img src="images/info.svg"  class="d-inline-block align-top" alt="">
+                      Загальна інформація
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                     <img src="images/oplataonline.svg"  class="d-inline-block align-top" alt="">
+                      Оплата онлайн
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <img src="images/document.svg"  class="d-inline-block align-top" alt="">
+                      Документи
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                     <img src="images/Wallet.svg"  class="d-inline-block align-top" alt="">
+                      Платежі
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <img src="images/terms.svg"  class="d-inline-block align-top" alt="">
+                      Заяви
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <img src="images/user.svg"  class="d-inline-block align-top" alt="">
+                      Мої дані
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <img src="images/question.svg"  class="d-inline-block align-top" alt="">
+                      Поширені питання
+                    </a>
+                  </li>
+                </ul>
+                <div class="pt-5 ps-3">
+                  <a href="#"><img src="images/group4.png"  class="d-inline-block align-top" alt=""></a>
+                  </div>
+            </div>
+
+        </div>
+        <!-- Кінець Бокового меню для комп'ютера -->
+
+     
+        <div class="content">
+          <header class = "header container-xxl">
+            <div class="d-flex align-items-center justify-content-between mobile-block ">
+              <a class="box-shadow-menu d-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></a>
+               <div><img src="images/logo-mobile.png" alt=""></div> 
+               <div><img src="images/ava.png" alt=""></div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between dekstop-block">
+              <nav class="navbar navbar-expand-lg navbar-light rounded-3">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Головна</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Фонди</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" >Про кабінет</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" >Інформація про оплату</a>
+                          </li>
+                        </ul>
+                    </div>
+        
+              </div>
+            </nav>
+            <div class="d-flex align-items-center">
+                <img src="images/ava.png" alt="">
+                <div class="d-flex align-items-center sidebar-info">
+                    <div class="user-info">
+                      <span class="d-block name-profile">Сергій</span>
+                      <span class="d-block name-profile">Петренко</span>
+                    </div>
+                </div>
+            </div>
+            <div class="edit">
+              <a href = "#"><img src="images/pencil25.svg" alt=""></a>
+            </div>
+            <div class="log_out">
+               <a href = "#"><img src="images/opendoor25.svg" alt=""></a>
+            </div>
+          </div>
+          </header>
+          <main>
+          <div class="container-fluid ps-lg-5 pe-lg-0">
+            <div class="row align-items-md-stretch py-3">
+              <div class="col-lg-12">
+                <div class="name-user ps-5">Вітаємо, Сергію!</div>
+              </div>
+            </div>
+
+             <div class="d-lg-flex justify-content-between align-items-center mx-neg-3 mb-3_5 tc-white text-lowercase">
+                <div class = "bg-color-red rounded-3 mb-3_5-mob px-5 py-44 flex-fill mx-3">
+                  <div class="fw-bold fsz-5 lh-1">7000₴</div>
+                  <span class="fsz-4 fw-medium">на вашому рахунку</span>
+                </div>
+
+                  <div class = "bg-color-blue rounded-3 px-5 py-44 flex-fill mx-3">
+                  <div class="d-flex justify-content-between">
+                    <div class="fw-bold fsz-5 lh-1">3000₴</div>
+                    <div class="fsz-0 fw-light">07.07.2023</div>
+                  </div>
+                  <span class="fsz-3 fw-medium">сплачено в цьому місяці</span>
+                </div>
+            </div>
+
+            <div class="d-lg-flex justify-content-between align-items-center mx-neg-3 mb-3_5">
+                <div class = "bg-color-grey rounded-3 mb-3_5-mob ps-5 pe-3 py-4 flex-fill mx-3">
+                  <div class="fw-semibold fsz-2 mb-3 ">Динаміка платежів</div>
+                      <table class="fixed_header">
+                          <thead>
+                            <tr>
+                              <th scope="col">Дата</th>
+                              <th scope="col">Тип</th>
+                              <th scope="col">Сума ₴</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>17.07.2023</td>
+                              <td>Внесок</td>
+                              <td>3000₴</td>
+                            </tr>
+                            <tr>
+                              <td>17.06.2023</td>
+                              <td>Внесок</td>
+                              <td>7000₴</td>
+                            </tr>
+                            <tr>
+                              <td>17.05.2023</td>
+                              <td>Внесок</td>
+                              <td>9000₴</td>
+                            </tr>
+                            <tr>
+                              <td>17.04.2023</td>
+                              <td>Внесок</td>
+                              <td>2000₴</td>
+                            </tr>
+                            <tr>
+                              <td>17.03.2023</td>
+                              <td>Внесок</td>
+                              <td>9000₴</td>
+                            </tr>
+                        </tbody>
+                    </table>           
+                </div>
+                 <div class ="bg-color-grey rounded-3 px-5 pt-4 flex-fill mx-3">
+                    <div class="fw-semibold fsz-2 mb-3">Історія ваших коштів</div>
+                        <div class="card">
+                          <div class="card-body">
+                            <canvas id="chBar" height="200" width="350"></canvas>
+                          </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class= "p-5 mb-5_3-mob bg-color-grey rounded-3">
+                  <div class="d-md-flex justify-content-between align-items-center">
+                    <div class="fw-semibold fsz-2 mb-3">Інформація по фонду “НАЗВА”</div>
+                    <div class="current-data">станом на 07.08.2023</div>
+                  </div>
+                  <div class="d-sm-flex justify-content-between align-items-center">
+                    <div class="fsz-1 fw-normal">Чиста вартість активів</div>
+                    <div class="asset-value">100 000₴</div>
+                  </div>
+                  <hr>
+                  <div class="d-md-flex justify-content-between align-items-center fsz-1 fw-normal">
+                    <div class="flex-grow-3">Дохідність з початку року (% річних)</div>
+                    <div class="flex-grow-3 text-md-end">6,80</div>
+                    <div class="flex-grow-1 text-md-end">0,95%</div>
+                  </div>
+            </div>
+          </div>
+          </main>
+
+      </div>
+    </div>
+</div>
+
+<footer class="footer container-xxl px-5 py-5 rounded-3">
+	<div class="row mobile-block py-4"><a href="#">На головну сторінку</a></div>
+  		<nav class="navbar navbar-expand-lg navbar-light ">
+    		<div class="collapse navbar-collapse">
+      			<ul class="navbar-nav justify-content-between">
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">КОМПАНІЯ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ФОНДИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">РОЗРАХУВАТИ ПЕНСІЮ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ПРИЄДНАТИСЬ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ВИПЛАТИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ЗРОБИТИ ВНЕСОК</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">НОВИНИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ЗАКОНОДАВСТВО</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">КОНТАКТИ</a>
+        			</li>
+      			</ul>
+    		</div>
+		</nav>
+    	<div class="text-footer py-4">Товариство з обмеженою відповідальністю «Компанія з управління активами — Адміністратор пенсійних фондів «Upinvest» зареєстроване Шевченківською районною в місті Києві державною адміністрацією 04.12.2007 року. Ліцензія на здійснення професійної діяльності на фондовому ринку – діяльності з управління активами інституційних інвесторів (діяльність з управління активами), видана НКЦПФР 10.01.2014 р., серія АЕ №286791 (строк дії: 28.12.2012 р. – необмежений). Ліцензія на здійснення діяльності з адміністрування недержавних пенсійних фондів, видана Нацкомфінпослуг 17.12.2013 р., серія АВ № 614847, строк дії: з 25.09.2008 р., безстроковий.
+    	</div>
+    	<div class="copy">©Upinvest 2007-2023</div>
+</footer>
+
+</body>
+</html>
