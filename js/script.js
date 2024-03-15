@@ -1,4 +1,6 @@
 window.onload = function() {
+
+if(document.getElementById("chBar")) { 
       const ctx = document.getElementById("chBar").getContext('2d');
       const myChart = new Chart(ctx, {
         type: 'bar',
@@ -9,10 +11,13 @@ window.onload = function() {
             label: '',
             backgroundColor: '#69A7BA',
             borderColor: '#69A7BA',
-            data: [1500, 900, 2000, 1500, 800, 900, 2000, 1000, 900, 900],
+            data: [15000, 59000, 17000, 15000, 48000, 39000, 200000, 100000, 90000, 200000],
           }]
         },
         options: {
+          legend: {
+            display: false
+          },
           scales: {
             yAxes: [{
               ticks: {
@@ -23,3 +28,6 @@ window.onload = function() {
         },
       });
 }
+
+}
+
