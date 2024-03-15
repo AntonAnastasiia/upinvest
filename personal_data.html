@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="uk">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Personal data</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="js/script.js"></script>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-xxl  mt-4  p-0">
+    <div class="d-lg-flex">
+        <!-- БОКОВЕ МЕНЮ ДЛЯ МОБИЛЬНОГО ТЕЛЕФОНА -->
+       <div class="menu-sidebar-mobile mobile-block offcanvas offcanvas-start bg-color-blue overflow-auto" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="d-flex flex-column flex-shrink-0  text-white">
+              <div class="header-menu-sidebar">
+                  <div class="logo-menu">
+                    <div class="btn-close-mobile">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div><img src="images/logo.png"  class="d-inline-block align-top" alt=""></div>
+                  </div>
+                  <div class="position-relative mb-2rem-mob">
+                      <div class="block-user-photo">
+                          <img src="images/photo_user.png" alt="">
+                      </div>
+                      <div class="user-name">
+                          <span class="d-block">Сергій</span>
+                          <span class="d-block">Петренко</span>
+                      </div>                    
+                    <div class="edit">
+                        <a href = "#"><img src="images/Edit.svg" alt=""></a>
+                    </div>
+                    <div class="exit">
+                        <a href = "#"><img src="images/opendoor_white.svg" alt=""></a>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <ul class="nav nav-pills flex-column mb-auto pt-5">
+                    <li>
+                      <a href="information.html" class="nav-link">
+                          <span class="text-menu" id="info-menu">Загальна інформація</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                          <span class="text-menu" id="oplata-menu">Оплата онлайн</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span class="text-menu" id="document-menu">Документи</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span class="text-menu" id="wallet-menu">Платежі</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span class="text-menu" id="terms-menu">Заяви</span> 
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="personal_data.html" class="nav-link active" aria-current="page">
+                        <span class="text-menu" id="user-menu">Мої дані</span> 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span class="text-menu" id="question-menu">Поширені питання</span> 
+                      </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Кінець Бокового меню для мобильного -->
+
+
+      <!-- БОКОВЕ МЕНЮ ДЛЯ КОМП'ЮТЕРА' -->
+        <div class="menu-sidebar dekstop-block bg-color-blue rounded-3">
+            <div class="d-flex flex-column flex-shrink-0 text-white">
+              <div class="menu-sidebar-logo">
+              <img src="images/logo.png"  class="d-inline-block align-top" alt="">
+              </div>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <li>
+                    <a href="information.html" class="nav-link">
+                      <span class="radius-top"></span>
+                      <span class="radius-bottom"></span>
+                      <span class="text-menu" id="info-menu">Загальна інформація</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                      <span class="radius-top"></span>
+                      <span class="radius-bottom"></span>
+                      <span class="text-menu" id="oplata-menu">Оплата онлайн</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <span class="radius-top"></span>
+                    <span class="radius-bottom"></span>
+                    <span class="text-menu" id="document-menu">Документи</span> 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <span class="radius-top"></span>
+                    <span class="radius-bottom"></span>
+                    <span class="text-menu" id="wallet-menu">Платежі</span> 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <span class="radius-top"></span>
+                    <span class="radius-bottom"></span>
+                    <span class="text-menu" id="terms-menu">Заяви</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="personal_data.html" class="nav-link active" aria-current="page">
+                    <span class="radius-top"></span>
+                    <span class="radius-bottom"></span>
+                    <span class="text-menu" id="user-menu">Мої дані</span> 
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">
+                    <span class="radius-top"></span>
+                    <span class="radius-bottom"></span>
+                    <span class="text-menu" id="question-menu">Поширені питання</span> 
+                    </a>
+                  </li>
+                </ul>
+                <div class="pt-5 ps-3">
+                  <a href="#"><img src="images/group4.png"  class="d-inline-block align-top" alt=""></a>
+                  </div>
+            </div>
+
+        </div>
+        <!-- Кінець Бокового меню для комп'ютера -->
+
+     
+        <div class="content">
+          <header class = "header container-xxl px-4 px-lap">
+            <div class="d-flex align-items-center justify-content-between mobile-block">
+              <a class="box-shadow-menu d-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></a>
+               <div><img src="images/logo-mobile.png" alt=""></div> 
+               <div>
+                  <div class="block-user-photo-small">
+                    <img src="images/ava.png" alt="">
+                  </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between dekstop-block">
+              <nav class="navbar navbar-expand-lg navbar-light rounded-3">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Головна</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Фонди</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" >Про кабінет</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" >Інформація про оплату</a>
+                          </li>
+                        </ul>
+                    </div>
+        
+              </div>
+            </nav>
+            <div class="d-flex align-items-center">
+                <div class="block-user-photo-small">
+                  <img src="images/ava.png" alt="">
+                </div>
+                <div class="d-flex align-items-center sidebar-info">
+                    <div class="user-info">
+                      <span class="d-block name-profile">Сергій</span>
+                      <span class="d-block name-profile">Петренко</span>
+                    </div>
+                </div>
+            </div>
+            <div class="edit">
+              <a href = "#"><img src="images/pencil25.svg" alt=""></a>
+            </div>
+            <div class="log_out">
+               <a href = "#"><img src="images/opendoor25.svg" alt=""></a>
+            </div>
+          </div>
+          </header>
+          <main>
+          <div class="container-fluid pe-lg-0 px-lap">
+            <div class="fsz-4-h fw-semibold  py-3  ps-lg-4">Анкетні дані</div>
+                <div class = "bg-color-grey rounded-3 mb-7 pxy-1">
+                <form>
+                  <div class= "d-lg-flex justify-content-between align-items-start grid-2">
+                    <div>
+                      <div class= "d-lg-flex grid-1">
+                        <div class="rounded-3 photo-anketa">
+                          <img src="images/rectangle19.jpg" alt="">
+                        </div>
+                        <div>
+                          <div class="mb-lg-4 mb-mob-4">
+                            <label for="firstName" class="form-label">імʼя</label>
+                            <input type="text" class="form-control" placeholder="імʼя" id="firstName" value="Марина">
+                          </div>
+                          <div class="mb-lg-4 mb-mob-4">
+                            <label for="middleName" class="form-label">по батькові</label>
+                            <input type="text" class="form-control" placeholder="по батькові" id="middleName" value="Анатоліївна">
+                          </div>
+                           <div class="mb-mob-4">
+                            <label for="lastName" class="form-label">прізвище</label>
+                            <input type="text" class="form-control" placeholder="прізвище" id="lastName" value="Лавріненко">
+                          </div> 
+                        </div> 
+                      </div>                    
+                    </div>
+                    <div>
+                      <div class="mb-lg-4 mb-mob-4">
+                        <label for="email" class="form-label">e-mail</label>
+                        <input type="email" class="form-control" placeholder="e-mail" id="email" value="lavrinka@gamil.com">
+                      </div>
+                      <div class="mb-lg-4">
+                        <label for="telephone" class="form-label">телефон</label>
+                        <input type="tel" class="form-control" placeholder="телефон" id="telephone" value="+380960800309">
+                      </div>
+                      <div class="text-mob-center mt-mob-4">
+                        <button type="submit" class="btn btn-primary w-100">Зберегти зміни</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            <div class="fsz-4-h fw-semibold  py-3  ps-lg-4">Паспортні дані</div>
+                <div class = "bg-color-grey rounded-3 pxy-2 mb-7">
+              <!-- БЛОК НОМЕР ПАСПОРТУ І ІПН ДЛЯ МОБИЛЬНОГО-->
+                  <div class="mb-4 form-white mobile-block">
+                    <label for="number" class="form-label">номер паспорту</label>
+                    <input type="email" class="form-control" placeholder="номер паспорту" id="number" value="РН 456 99">
+                  </div>
+                  <div class="mb-4 form-white mobile-block">
+                    <label for="ipn" class="form-label">ІПН</label>
+                    <input type="tel" class="form-control" placeholder="ІПН" id="ipn" value="000000000">
+                  </div>
+               <!-- КІНЕЦЬ БЛОК НОМЕР ПАСПОРТУ І ІПН ДЛЯ МОБИЛЬНОГО-->
+                  <div class="fsz-2 fw-semibold my-mob-4">Місце проживання</div>
+                  <form>
+                    <div class= "d-lg-flex justify-content-between align-items-start">
+                      <div class="w-35">
+                        <div class="mb-4">
+                          <label for="street" class="form-label">вулиця</label>
+                          <input type="text" class="form-control" placeholder="вулиця" id="street" value="Шевченка">
+                        </div>
+                        <div class="mb-4">
+                          <label for="house" class="form-label">будинок</label>
+                          <input type="text" class="form-control" placeholder="будинок" id="house" value="43">
+                        </div>
+                        <div class="mb-4 form-white-dekstop">
+                          <label for="typeSettlement" class="form-label">тип населеного пункту</label>
+                          <input type="text" class="form-control" placeholder="-" id="typeSettlement" value="місто">
+                        </div>
+                        <div class="mb-4 form-white-dekstop">
+                          <label for="settlement" class="form-label">населений пункт</label>
+                          <input type="text" class="form-control" placeholder="-" id="settlement" value="Київ">
+                        </div>
+                        <div class="mb-4 form-white">
+                          <label for="region" class="form-label">район</label>
+                          <input type="text" class="form-control" placeholder="-" id="region" value>
+                        </div>
+                        <div class="mb-4 form-white">
+                          <label for="area" class="form-label">область</label>
+                          <input type="text" class="form-control" placeholder="-" id="area" value>
+                        </div>                          
+                      </div>
+                      <div>
+                      <div class="w-35 ms-lg-auto">
+                       <!-- БЛОК НОМЕР ПАСПОРТУ І ІПН ДЛЯ КОМП'ЮТЕРА-->
+                        <div class="mb-4 form-white dekstop-block">
+                          <label for="number" class="form-label">номер паспорту</label>
+                          <input type="email" class="form-control" placeholder="номер паспорту" id="number" value="РН 456 99">
+                          </div>
+                        <div class="mb-4 form-white dekstop-block">
+                          <label for="ipn" class="form-label">ІПН</label>
+                          <input type="tel" class="form-control" placeholder="ІПН" id="ipn" value="000000000">
+                        </div>
+                       <!-- КІНЕЦЬ БЛОК НОМЕР ПАСПОРТУ І ІПН ДЛЯ КОМП'ЮТЕРА-->
+                        <!-- БЛОК ЧЕКСБОКС МІСЦЕ ПРОЖИВАННЯ ДЛЯ КОМП'ЮТЕРА-->
+                        <div class="mb-4  form-check dekstop-block">
+                          <input class="form-check-input" type="checkbox" value="" id="placeResidence">
+                          <label class="form-check-label" for="placeResidence">
+                            місце проживання збігається з поштовою адресою
+                          </label>
+                        </div>
+                        <!-- КІНЕЦЬ БЛОК ЧЕКСБОКС МІСЦЕ ПРОЖИВАННЯ ДЛЯ КОМП'ЮТЕРА-->
+                        <div class="my-mob-5">
+                          <div class="form-text-file">Якщо у вас змінилися паспортні дані, будь ласка, завантажте копію документів, які було змінено</div>
+                          <label class="form-label-file" for="customFile"> 
+                            <img src="images/addfile.png" alt="">
+                          </label> 
+                          <input type="file" class="form-control visually-hidden"  id="customFile" accept="images/*" multiple  onchange="showFiles(this)"> 
+                          <div class="mt-3"> 
+                            <div class="row" id="imagePreviews"></div> 
+                          </div> 
+                        </div>
+                         <!-- БЛОК ЧЕКСБОКС МІСЦЕ ПРОЖИВАННЯ ДЛЯ МОБИЛЬНОГО-->
+                        <div class="mb-7 form-check mobile-block">
+                          <input class="form-check-input" type="checkbox" value="" id="placeResidence">
+                          <label class="form-check-label" for="placeResidence">
+                            місце проживання збігається з поштовою адресою
+                          </label>
+                        </div>
+                        <!-- КІНЕЦЬ БЛОК ЧЕКСБОКС МІСЦЕ ПРОЖИВАННЯ ДЛЯ МОБИЛЬНОГО-->
+                        </div>
+                        <div class="text-mob-center">
+                          <button type="submit" class="btn btn-primary">Направити адміністратору</button>
+                        </div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            <div class="fsz-4-h fw-semibold  py-3  ps-lg-4">Безпека</div>
+            <div class = "bg-color-grey rounded-3 pxy-3">
+                  <form>
+                    <div class= "d-lg-flex justify-content-between align-items-start">
+                      <div class="w-35">
+                        <div class="mb-2rem form-check mb-7">
+                          <input class="form-check-input" type="checkbox" value="" id="enableFA">
+                          <label class="form-check-label" for="enableFA">
+                            увімкнути 2FA двофакторну авторизацію (рекомендовано)
+                          </label>
+                        </div>
+                        <div class="fsz-2 fw-semibold mb-3">Змінити пароль</div>
+                        <div class="mb-2rem form-white-dekstop">
+                          <label for="oldPassword" class="form-label">старий пароль</label>
+                          <input type="password" class="form-control" placeholder="******" id="oldPassword" value>
+                        </div>
+                        <div class="form-white-dekstop">
+                          <label for="newPassword" class="form-label">новий пароль</label>
+                          <input type="password" class="form-control" placeholder="******" id="newPassword" value>
+                        </div>                                        
+                      </div>
+                      <div class="w-35 ms-lg-auto">
+                        <div class="fsz-2 fw-semibold mb-2rem my-mob-4">Конфіденційність</div>
+                        <div class="mb-2rem form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="receiveEmail">
+                          <label class="form-check-label" for="receiveEmail">
+                            отримувати e-mail з новинами
+                          </label>
+                        </div>
+                        <div class="mb-6 form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="receiveMessages">
+                          <label class="form-check-label" for="receiveMessages">
+                            отримувати повідомлення від адміністраторів
+                          </label>
+                        </div>
+                        <div class="text-mob-center">
+                          <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+                        </div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+          </div>
+          </main>
+
+      </div>
+    </div>
+</div>
+<footer class="footer container-xxl px-5 py-5 rounded-3">
+	<div class="row mobile-block py-4"><a href="#">На головну сторінку</a></div>
+  		<nav class="navbar navbar-expand-lg navbar-light ">
+    		<div class="collapse navbar-collapse">
+      			<ul class="navbar-nav justify-content-between">
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">КОМПАНІЯ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ФОНДИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">РОЗРАХУВАТИ ПЕНСІЮ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ПРИЄДНАТИСЬ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ВИПЛАТИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ЗРОБИТИ ВНЕСОК</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">НОВИНИ</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">ЗАКОНОДАВСТВО</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">КОНТАКТИ</a>
+        			</li>
+      			</ul>
+    		</div>
+		</nav>
+    	<div class="text-footer py-4">Товариство з обмеженою відповідальністю «Компанія з управління активами — Адміністратор пенсійних фондів «Upinvest» зареєстроване Шевченківською районною в місті Києві державною адміністрацією 04.12.2007 року. Ліцензія на здійснення професійної діяльності на фондовому ринку – діяльності з управління активами інституційних інвесторів (діяльність з управління активами), видана НКЦПФР 10.01.2014 р., серія АЕ №286791 (строк дії: 28.12.2012 р. – необмежений). Ліцензія на здійснення діяльності з адміністрування недержавних пенсійних фондів, видана Нацкомфінпослуг 17.12.2013 р., серія АВ № 614847, строк дії: з 25.09.2008 р., безстроковий.
+    	</div>
+    	<div class="copy">©Upinvest 2007-2023</div>
+</footer>
+<script src="js/upload_files.js"></script>
+</body>
+</html>
