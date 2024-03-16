@@ -695,8 +695,32 @@ label{
 		color:#5CA1B7;
 	}
 }
+@media (min-width: 992px) and (max-width: 1299px) {
+	.menu-sidebar>div {
+    	padding: 65px 0 50px 10px;
+	}
+	.header nav {
+    	padding: 20px 10px 20px 20px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+    	padding-right: 10px;
+    	padding-left: 10px;
+	}
+	.col-6-md{
+		width: 50%;
+	}
+	.menu-sidebar {
+    	width: 290px;
+	}
+	.pxy-2 {
+    	padding: 45px 35px 35px 35px;
+	}
+	.btn {
+    	padding: 10px 20px;
+	}
+}
 
-@media (min-width: 600px) and (max-width: 1299px) {
+@media (min-width: 600px) and (max-width: 991px) {
 	.px-lap{
 	    padding-left: 55px!important;
     	padding-right: 55px!important;
