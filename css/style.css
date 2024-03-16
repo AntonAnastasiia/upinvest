@@ -694,6 +694,9 @@ label{
   	.form-control[type=password]::placeholder{
 		color:#5CA1B7;
 	}
+	.form-exit .form-control[type=password]::placeholder{
+		color:#ffffff;
+	}
 }
 @media (min-width: 992px) and (max-width: 1299px) {
 	.menu-sidebar>div {
