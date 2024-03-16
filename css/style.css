@@ -955,6 +955,12 @@ label{
 	.block-user-photo img{
 		width: 100%;
 	}
+	.nav-pills .nav-link.active, .nav-pills .nav-link:hover{
+		border-top-right-radius: 60px;
+		border-bottom-right-radius: 60px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
 	/* КІНЕЦЬ МЕНЮ САЙДБАР*/
 }
 
