@@ -535,20 +535,52 @@ label{
    		background-image: url(../images/oplata-red.svg);
 	};
 	#document-menu:before{
-	background-image: url(../images/document-red.svg);
+		background-image: url(../images/document-red.svg);
 	};
 	#wallet-menu:before{
-	background-image: url(../images/Wallet-red.svg);
+		background-image: url(../images/Wallet-red.svg);
 	};
 	#terms-menu:before{
-	background-image: url(../images/terms-red.svg);
+		background-image: url(../images/terms-red.svg);
 	};
 	#user-menu:before{
 		background-image: url(../images/user_red.svg);
 	};
 	#question-menu:before{
-	background-image: url(../images/question-red.svg);
+		background-image: url(../images/question-red.svg);
 	};
+	.radius-top{
+    	opacity: 1;
+    	position: absolute;
+    	top: -13px;
+    	-webkit-transform: translateY(-50%);
+    	transform: translateY(-50%);
+    	right: 0px;
+    	width: 26px;
+    	height: 26px;
+    	background-position: 50%;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	background-image: url(../images/r1.png);
+    	transition: opacity .15s ease-in-out;
+    	content: "";
+	};
+	.radius-bottom{
+    	opacity: 1;
+    	position: absolute;
+    	bottom: -38px;
+    	-webkit-transform: translateY(-50%);
+    	transform: translateY(-50%);
+    	right: 0;
+    	width: 21px;
+    	height: 26px;
+    	background-position: 50%;
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	background-image: url(../images/r2.png);
+    	transition: opacity .15s ease-in-out;
+    	content: "";
+	}
 }
 .menu-sidebar {
     width: 320px;
