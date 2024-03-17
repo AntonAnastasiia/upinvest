@@ -524,32 +524,28 @@ label{
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 }
-.nav-pills .nav-link:hover{
-	background: #ffffff;
-	color:#D5635F;
-	z-index: 100;
-	#info-menu:before{
-    	background-image: url(../images/info_red.svg);
-	};
-	#oplata-menu:before{
-   		background-image: url(../images/oplata-red.svg);
-	};
-	#document-menu:before{
-		background-image: url(../images/document-red.svg);
-	};
-	#wallet-menu:before{
-		background-image: url(../images/Wallet-red.svg);
-	};
-	#terms-menu:before{
-		background-image: url(../images/terms-red.svg);
-	};
-	#user-menu:before{
-		background-image: url(../images/user_red.svg);
-	};
-	#question-menu:before{
-		background-image: url(../images/question-red.svg);
-	};
-	.radius-top{
+.nav-pills .nav-link:hover #info-menu:before{
+    background-image: url(../images/info_red.svg);
+}
+.nav-pills .nav-link:hover #oplata-menu:before{
+   	background-image: url(../images/oplata-red.svg);
+}
+.nav-pills .nav-link:hover	#document-menu:before{
+	background-image: url(../images/document-red.svg);
+}
+.nav-pills .nav-link:hover	#wallet-menu:before{
+	background-image: url(../images/Wallet-red.svg);
+}
+.nav-pills .nav-link:hover	#terms-menu:before{
+	background-image: url(../images/terms-red.svg);
+}
+.nav-pills .nav-link:hover	#user-menu:before{
+	background-image: url(../images/user_red.svg);
+}
+.nav-pills .nav-link:hover	#question-menu:before{
+	background-image: url(../images/question-red.svg);
+}
+.nav-pills .nav-link:hover .radius-top{
     	opacity: 1;
     	position: absolute;
     	top: -13px;
@@ -564,8 +560,8 @@ label{
     	background-image: url(../images/r1.png);
     	transition: opacity .15s ease-in-out;
     	content: "";
-	};
-	.radius-bottom{
+}
+.nav-pills .nav-link:hover .radius-bottom{
     	opacity: 1;
     	position: absolute;
     	bottom: -38px;
@@ -580,7 +576,11 @@ label{
     	background-image: url(../images/r2.png);
     	transition: opacity .15s ease-in-out;
     	content: "";
-	}
+}
+.nav-pills .nav-link:hover{
+	background: #ffffff;
+	color:#D5635F;
+	z-index: 100;
 }
 .menu-sidebar {
     width: 320px;
